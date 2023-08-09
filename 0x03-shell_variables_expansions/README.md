@@ -1,2 +1,5 @@
 #!/bin/bash
-pwd
+Shell, init files, variables and expansions
+DevOps
+Shell
+Bash
