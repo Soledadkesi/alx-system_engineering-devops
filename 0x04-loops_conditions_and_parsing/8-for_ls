@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# displays content of the current directory
+for file in *;
+do
+    if [[ -f "$file" && "$file" != .* ]]
+    then
+        myfile=$(echo "$file" | cut -d"-" -f2-)
+        echo "$myfile"
+    fi
+done
