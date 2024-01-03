@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# display all activeee ipv4
+
+ifconfig | sed 's/  \+ //g' | grep "inet " | cut -d " " -f2
